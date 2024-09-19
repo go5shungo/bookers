@@ -4,7 +4,14 @@
 
 <p>Title</p>
 
-<span><%= book.title %></span>
+<span>
+  <%= book.title %>
+</span>
+
+<span>
+   <%= link_to "show", "/books/#{book.id}" %>
+</span>
+  
 
 <p>Body</p>
 
